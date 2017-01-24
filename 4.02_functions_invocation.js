@@ -19,7 +19,6 @@
 //will be returned "undefined."
 
 
-/*------------------ METHOD INVOCATION ---------------------*/
 
 
 /*------------------ FUNCTION INVOCATION ---------------------*/
