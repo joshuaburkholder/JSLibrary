@@ -6,7 +6,7 @@ var multiply = function (a, b) {
 	if (typeof a !== 'number' || typeof b !== 'number') {
 		throw {
 			name: 'TypeError',
-			message: 'multiply needs numbers'
+			message: 'multiply needs numbers!!'
 		};
 	}
 	return a * b;
@@ -15,7 +15,7 @@ var multiply = function (a, b) {
 //When the function is called without those parameters, 
 //an exception is thrown.
 
-multiply();  //returns 'multiply needs numbers'
+multiply();  //returns 'multiply needs numbers!!'
 
 //If an exception is thrown within a 'try' statement,
 //then the the catch message will be returned. 'try' 

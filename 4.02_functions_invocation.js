@@ -18,11 +18,3 @@
 //If there are too few argument values, the missing values of the parameters
 //will be returned "undefined."
 
-
-
-
-/*------------------ FUNCTION INVOCATION ---------------------*/
-
-/*------------------ CONSTRUCTOR INVOCATION -----------------*/
-
-/*------------------ APPLY INVOCATION ---------------------*/

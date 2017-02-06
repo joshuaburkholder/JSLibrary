@@ -5,6 +5,8 @@
 //A method is a function stored as a property within an object, and
 //it is bound to that object. 
 
+//Below, is an object catLives
+//the value of the catLives is an increment method (which contains an optional parameter);
 
 var catLives = {
   value: 9,
