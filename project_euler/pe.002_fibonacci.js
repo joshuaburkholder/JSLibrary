@@ -17,7 +17,7 @@ function solution(){
 	}
 
 //create a loop that will run through each of the numbers, define how long to run the loop (i.e., 4million)
-while (fiboNum[fiboNUm.length-1] < 4e+6) {
+while (fiboNum[fiboNum.length-1] < 4e+6) {
 	fibNum.push(cal(fibNum));
 }
 
