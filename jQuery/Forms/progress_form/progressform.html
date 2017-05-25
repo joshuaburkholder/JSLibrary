@@ -1,0 +1,108 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Progressbar Form</title>
+  
+  <link rel="stylesheet" type="text/css" href="./progressform.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <script type="text/javascript" src="progressform.js"></script>
+
+
+</head>
+
+<body>
+
+<div class="navbar"></div> 
+
+<!-- Create a mult-step form with progress bar -->
+
+<form id="signup">
+
+<!--create the progress bar -->
+
+  <ul id="progressbar">
+    <li class="active">Create Account</li>
+    <li>Join a team</li>
+    <li>Profile</li>
+    <li>Terms of Use</li>
+  </ul>
+
+  <!-- fieldsets for form -->
+  <fieldset>
+    <h2 class="fs-title">Create a New Account</h2>
+    <h3 class="fs-subtitle">Create username &amp; password</h3>
+    <input type="text" name="email" placeholder="Email address" />
+    <input type="password" name="password" placeholder="Password" />
+    <input type="password" name="confirmPassword" placeholder="Confirm Password" />
+<br>
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset>
+    <h2 class="fs-title">Join a Team</h2>
+    <h3 class="fs-subtitle">Choose a team.</h3>
+    <legend></legend>
+    <div>
+      <input type="radio" id="control_01" name="select" value="1" checked>
+      <label for="control_01"><p>Robots</p></label>
+    </div>
+
+    <div>
+      <input type="radio" id="control_02" name="select" value="2">
+      <label for="control_02"><p>Aliens</p></label>
+    </div>
+
+    <div>
+      <input type="radio" id="control_03" name="select" value="3">
+      <label for="control_03"><p>Zombies</p></label>
+    </div>
+
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset>
+    <h2 class="fs-title">Your Personal Profile</h2>
+    <h3 class="fs-subtitle">Tell us a little about yourself.</h3>
+
+    <input type="text" name="name" placeholder="First Name" /> 
+    <input type="text" name="lname" placeholder="Last Name" />
+    <textarea name="bio" placeholder="What's your story?"></textarea>
+<br>
+      <input type="button" name="previous" class="previous action-button" value="Previous" />
+      <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset>
+    <h2 class="fs-title">Terms of Use</h2>
+    <h3 class="fs-subtitle">Please read the full terms of use.</h3>
+    <h5>Download the<a href="https://termsfeed.com/terms-conditions/generator/?utm_source=Generic&utm_medium=PDF&utm_campaign=Terms+Conditions+Templates&utm_nooverride=1" target="
+    _blank">Terms of Use</a><br></h5>
+
+<!--     <iframe src="https://media.termsfeed.com/pdf/terms-and-conditions-template.pdf"></iframe> -->
+<br>
+
+    <p>Do you agree to these terms?</p>
+<br>
+<br>
+
+    <input type="radio" id="terms" name="terms" value="true">
+    <label for="terms"><p>I agree</p></label>
+  <input type="radio" id="term1" name="terms" value="false">
+  <label for="term1"><p>I decline</p></label>
+
+<br>
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+  </fieldset>
+
+</form>
+
+
+</body>
+</html>
