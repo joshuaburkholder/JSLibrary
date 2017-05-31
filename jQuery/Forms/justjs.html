@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Form Submission &amp; Processing</title>
+</head>
+<body>
+
+
+<form id="name-form">
+<label>Your Name:</label>
+	<input type="text" name="fullname" />
+	<input type="submit" name="Sib,ot">
+
+</form>
+<br />
+
+<p id="result"></p>
+
+<p>
+	There are three ways to submit form with HTML/Javascript:	
+</p>
+
+
+<script type="text/javascript">
+		var form = document.getElementById('name-form');
+	
+	form.onsubmit = function(e){
+		e.preventDefault();
+
+		var result = document.getElementById('result');
+		result.innerHTML = 'Hi '+(form.fullname.value);
+		this.reset
+
+	}
+</script>
+
+</body>
+</html>

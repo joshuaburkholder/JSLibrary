@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+}
+
+#wrapper{
+	width: 35%;
+	height: 200px;
+	margin: 50px auto;
+	padding: 20px;
+	background: beige;
+}
+
+
+form{
+	width: 50%;
+	margin: 100px auto;
+}
+
+form div{
+	margin: 3px auto;
+}
+
+.textInput{
+	margin-top: 2px;
+	height: 28px;
+	border: 1px solid blue;
+	font-size: 14px;
+	padding: 1px;
+	width: 100%
+}
+
+.btn{
+	padding: 7px;
+	width: 100%
+}
+
+.val_error{
+	color: #FF1F1F;
+}
