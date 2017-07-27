@@ -10,4 +10,9 @@
 // ---------------------------------------
 
 
-^  //Indicates the BEGINNING OF A STRING
+^    //Indicates the BEGINNING OF A STRING
+	//Prevents 'exec' from skipping over a non-URL-like-prefix
+
+//EXAMPLE:
+
+var parse_url = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/[^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;
