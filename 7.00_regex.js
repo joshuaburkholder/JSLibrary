@@ -16,3 +16,8 @@
 //EXAMPLE:
 
 var parse_url = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/[^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;
+
+
+// There are two ways to create Regular Expressions:
+// 1. RegEx literals
+// 2. RegEx constructor
