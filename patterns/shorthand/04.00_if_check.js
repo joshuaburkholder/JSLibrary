@@ -2,11 +2,11 @@
 
 //longhand
 
-// if(isCold = true){...}
+if(isCold = true){...}
 
 // //shorthand
 
-// if(isCold){...}
+if(isCold){...}
 
 //SECOND EXAMPLE
 
