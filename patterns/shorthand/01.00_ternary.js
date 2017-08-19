@@ -1,3 +1,6 @@
+//Ternary operator can be used to write if...else statements in one line
+
+
 //longhand
 
 const length = 30;
